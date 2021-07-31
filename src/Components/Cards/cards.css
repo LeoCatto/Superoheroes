@@ -1,0 +1,15 @@
+/* .render-cart{
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+} */
+/* .cadauna{
+        
+} */
+.aver{
+    display: grid;
+        gap: 1rem;
+        grid-auto-flow: dense;
+        grid-template-rows: 22rem;
+        grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
