@@ -1,6 +1,16 @@
 import React from "react";
+import { Interface } from "readline";
 
-export default function Card({ name, alias, powerstats, image, id, getFavourites}) {
+interface ICard{
+  name:string,
+  alias:string,
+  powerstats:number,
+  image:string,
+  id:number,
+  getFavourites:(id:number)=>void
+}
+
+export default function Card({ name, alias, powerstats, image, id, getFavourites}:ICard) {
 
   return (
     <div >
